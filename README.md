@@ -1,0 +1,1 @@
+run <http://dev.gluchman.cz/points/>
