@@ -6,8 +6,8 @@ class Graph {
 
   public $x = array();
 
-  public function __construct() {
-    $this->points = new PointCollection;
+  public function __construct(array $points = NULL) {
+    $this->points = new PointCollection($points);
   }
 
 
