@@ -40,12 +40,7 @@ class PointCollection implements Iterator
 
   public function exists(Point $point)
   {
-    foreach ($this->points as $element) {
-      if ($element == $point) {
-        return TRUE;
-      }
-    }
-    return FALSE;
+    return in_array($point, $this->points);
   }
 
 
